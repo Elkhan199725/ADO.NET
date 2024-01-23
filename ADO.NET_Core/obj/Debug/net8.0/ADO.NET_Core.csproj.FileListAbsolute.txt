@@ -9,3 +9,5 @@ C:\Users\Elkhan Mammadli\source\repos\ADO.NET_PROJECT\ADO.NET_Core\obj\Debug\net
 C:\Users\Elkhan Mammadli\source\repos\ADO.NET_PROJECT\ADO.NET_Core\obj\Debug\net8.0\refint\ADO.NET_Core.dll
 C:\Users\Elkhan Mammadli\source\repos\ADO.NET_PROJECT\ADO.NET_Core\obj\Debug\net8.0\ADO.NET_Core.pdb
 C:\Users\Elkhan Mammadli\source\repos\ADO.NET_PROJECT\ADO.NET_Core\obj\Debug\net8.0\ref\ADO.NET_Core.dll
+C:\Users\Elkhan Mammadli\source\repos\ADO.NET_PROJECT\ADO.NET_Core\obj\Debug\net8.0\ADO.NET_Core.csproj.AssemblyReference.cache
+C:\Users\Elkhan Mammadli\source\repos\ADO.NET_PROJECT\ADO.NET_Core\obj\Debug\net8.0\ADO.NET_Core.sourcelink.json
