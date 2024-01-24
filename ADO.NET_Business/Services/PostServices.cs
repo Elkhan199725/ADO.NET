@@ -1,17 +1,14 @@
-﻿using ADO.NET_Core.Entities;
+﻿using ADO.NET_Business.Exceptions;
+using ADO.NET_Core.Entities;
 using Newtonsoft.Json;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Data.SqlClient;
 
-namespace ADO.NET_Business.Services
+namespace ADO.NET_Business.Services;
 public class PostServices
 {
     public async Task<Post> GetByIdAsync(int id)
     {
-        if (id < 0) throw new WrongIdFormatException("Wrong ID format !!");
+        if (id < 0) throw new IDFormatException("Wrong ID format !!");
         HttpClient client = new();
         string postUrl = $"https://jsonplaceholder.typicode.com/posts/{id}";
         HttpResponseMessage httpResponse = await client.GetAsync(postUrl);
@@ -31,13 +28,13 @@ public class PostServices
     }
     public async Task AddPostToDbAsync(Post post)
     {
-        string connString = @"Server=DESKTOP-E26J09P\SQLEXPRESS;Database=AdoNetDB;Trusted_Connection=true";
+        string connString = @"Server=ELKHAN-HOME\SQLEXPRESS;Database=AdoNetDB;Trusted_Connection=true";
         using (SqlConnection conn = new(connString))
         {
             conn.Open();
             if (PostExist(conn, post.Id))
             {
-                throw new AlreadyExistException("This post is already exist!");
+                throw new AlreadyExistsException("This post is already exist!");
             }
             string query = $"INSERT INTO Posts VALUES (@UserId,@id,@title,@body)";
             using (SqlCommand cmd = new SqlCommand(query, conn))
@@ -108,7 +105,7 @@ public class PostServices
     }
     public async Task<int> GetUserPostCountsAsync(int userId)
     {
-        if (userId < 1 || userId > 10) throw new UserNotFoundException("User with this Id is not found!");
+        if (userId < 1 || userId > 10) throw new UserMissingException("User with this Id is not found!");
         string connString = @"Server=DESKTOP-E26J09P\SQLEXPRESS;Database=AdoNetDB;Trusted_Connection=true";
         int result = -1;
         using (SqlConnection conn = new(connString))

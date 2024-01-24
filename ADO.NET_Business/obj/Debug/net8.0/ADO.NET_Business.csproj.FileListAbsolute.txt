@@ -1,0 +1,16 @@
+C:\Users\Elkhan Mammadli\source\repos\ADO.NET_PROJECT\ADO.NET_Business\obj\Debug\net8.0\ADO.NET_Business.csproj.AssemblyReference.cache
+C:\Users\Elkhan Mammadli\source\repos\ADO.NET_PROJECT\ADO.NET_Business\obj\Debug\net8.0\ADO.NET_Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Elkhan Mammadli\source\repos\ADO.NET_PROJECT\ADO.NET_Business\obj\Debug\net8.0\ADO.NET_Business.AssemblyInfoInputs.cache
+C:\Users\Elkhan Mammadli\source\repos\ADO.NET_PROJECT\ADO.NET_Business\obj\Debug\net8.0\ADO.NET_Business.AssemblyInfo.cs
+C:\Users\Elkhan Mammadli\source\repos\ADO.NET_PROJECT\ADO.NET_Business\obj\Debug\net8.0\ADO.NET_Business.csproj.CoreCompileInputs.cache
+C:\Users\Elkhan Mammadli\source\repos\ADO.NET_PROJECT\ADO.NET_Business\obj\Debug\net8.0\ADO.NET_Business.sourcelink.json
+C:\Users\Elkhan Mammadli\source\repos\ADO.NET_PROJECT\ADO.NET_Business\bin\Debug\net8.0\ADO.NET_Business.deps.json
+C:\Users\Elkhan Mammadli\source\repos\ADO.NET_PROJECT\ADO.NET_Business\bin\Debug\net8.0\ADO.NET_Business.dll
+C:\Users\Elkhan Mammadli\source\repos\ADO.NET_PROJECT\ADO.NET_Business\bin\Debug\net8.0\ADO.NET_Business.pdb
+C:\Users\Elkhan Mammadli\source\repos\ADO.NET_PROJECT\ADO.NET_Business\bin\Debug\net8.0\ADO.NET_Core.dll
+C:\Users\Elkhan Mammadli\source\repos\ADO.NET_PROJECT\ADO.NET_Business\bin\Debug\net8.0\ADO.NET_Core.pdb
+C:\Users\Elkhan Mammadli\source\repos\ADO.NET_PROJECT\ADO.NET_Business\obj\Debug\net8.0\ADO.NET_Business.csproj.CopyComplete
+C:\Users\Elkhan Mammadli\source\repos\ADO.NET_PROJECT\ADO.NET_Business\obj\Debug\net8.0\ADO.NET_Business.dll
+C:\Users\Elkhan Mammadli\source\repos\ADO.NET_PROJECT\ADO.NET_Business\obj\Debug\net8.0\refint\ADO.NET_Business.dll
+C:\Users\Elkhan Mammadli\source\repos\ADO.NET_PROJECT\ADO.NET_Business\obj\Debug\net8.0\ADO.NET_Business.pdb
+C:\Users\Elkhan Mammadli\source\repos\ADO.NET_PROJECT\ADO.NET_Business\obj\Debug\net8.0\ref\ADO.NET_Business.dll

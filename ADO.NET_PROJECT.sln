@@ -3,11 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34511.84
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADO.NET_Business", "ADO.NET_Business\ADO.NET_Business.csproj", "{CE843022-E4B0-44BB-8CE3-23BA6B9A914D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ADO.NET_Business", "ADO.NET_Business\ADO.NET_Business.csproj", "{CE843022-E4B0-44BB-8CE3-23BA6B9A914D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADO.NET_Core", "ADO.NET_Core\ADO.NET_Core.csproj", "{C37E85D8-C98F-4EAD-9157-3A1D4E400720}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ADO.NET_Core", "ADO.NET_Core\ADO.NET_Core.csproj", "{C37E85D8-C98F-4EAD-9157-3A1D4E400720}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp_ADO.NET", "ConsoleApp_ADO.NET\ConsoleApp_ADO.NET.csproj", "{5784B32E-134F-40DF-ADBE-77E58D865CAB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp_ADO.NET", "ConsoleApp_ADO.NET\ConsoleApp_ADO.NET.csproj", "{5784B32E-134F-40DF-ADBE-77E58D865CAB}"
+	ProjectSection(ProjectDependencies) = postProject
+		{C37E85D8-C98F-4EAD-9157-3A1D4E400720} = {C37E85D8-C98F-4EAD-9157-3A1D4E400720}
+		{CE843022-E4B0-44BB-8CE3-23BA6B9A914D} = {CE843022-E4B0-44BB-8CE3-23BA6B9A914D}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
