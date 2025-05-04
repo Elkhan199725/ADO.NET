@@ -6,11 +6,8 @@ using System.Threading.Tasks;
 
 namespace ADO.NET_Business.Exceptions
 {
-    public class AlreadyExistsException:Exception
+    public class AlreadyExistsException : Exception
     {
-       public AlreadyExistsException(string message) : base(message)
-        {
-
-        }
+       public AlreadyExistsException(string message) : base(message) {}
     }
 }

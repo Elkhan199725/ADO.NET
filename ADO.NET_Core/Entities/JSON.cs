@@ -5,7 +5,7 @@ namespace ADO.NET_Core.Entities;
 public class JsonBase
     {
         readonly HttpClient httpClient = new();
-        public async Task<List<Post>> GetPostsApi()
+        public async Task<List<Post>?> GetPostsApi()
         {
             try
             {
